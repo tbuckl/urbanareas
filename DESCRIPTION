@@ -1,0 +1,16 @@
+Package: urbanareas
+Type: Package
+Title: Urban Areas 2003
+Version: 0.1.0
+Author: c(
+    person("Tom", "Buckley", , "a@tibbl.es", c("aut", "cre"))
+    )
+Maintainer: Tom Buckley <a@tibbl.es>
+Description: Global Urban Areas, with Place Names and Population.
+    This package contains all the urban areas with names (based on available data). 
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: http://github.com/tbuckl/urbanareas
+BugReports: https://github.com/tbuckl/urbanareas/issues
+RoxygenNote: 6.0.1
