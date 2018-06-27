@@ -29,5 +29,8 @@ urbanareas <- urbanareas %>%
   distinct(name,allnames,area_sqkm,namecount,wikidataids, area_id, pop_max, pop_min, geometry) %>%
   ungroup()
 
+urbanareas <- urbanareas %>%
+  filter(pop_min>1e5)
+
 st_write(urbanareas, "data-raw/urbanareas.geojson", delete_dsn = TRUE)
 devtools::use_data(urbanareas, compress="bzip2", overwrite = TRUE)
