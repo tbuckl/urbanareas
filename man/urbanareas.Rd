@@ -19,4 +19,8 @@ Population estimates from Landscan.
 \details{
 Area Source: Schneider, A., M. A. Friedl, D. K. McIver, and C. E. Woodcock (2003) Mapping urban areas by fusing multiple sources of coarse resolution remotely sensed data. Photogrammetric Engineering and Remote Sensing, volume 69, pages 1377-1386.
 }
+\examples{
+  library(sf)
+  urbanareas
+}
 \keyword{datasets}

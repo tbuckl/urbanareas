@@ -1,6 +1,3 @@
-#' @importFrom tibble tibble
-NULL
-
 #' Urban Areas.
 #'
 #' Named urban areas with more than 100k in minimum estimated population.
@@ -13,4 +10,7 @@ NULL
 #' @format A simple features data frame with five variables:
 #'   \code{name}, \code{allnames}, \code{namecount}, \code{area_sqkm}, \code{pop_max} and \code{pop_min},
 #'   \code{wikidataids}, and \code{geometry}.
+#' @examples
+#'   library(sf)
+#'   urbanareas
 "urbanareas"
