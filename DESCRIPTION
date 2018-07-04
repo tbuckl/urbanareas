@@ -1,20 +1,20 @@
 Package: urbanareas
 Type: Package
 Title: Urban Areas 2003
-Version: 0.1.0
+Version: 0.1.1
 Depends:
     R (>= 2.10)
 Imports:
   sf
 Author: c(
-    person("Tom", "Buckley", , "a@tibbl.es", c("aut", "cre"))
+    person("Tom", "Buckley", , email = "tom@tbuckl.com", c("aut", "cre"))
     )
-Maintainer: Tom Buckley <a@tibbl.es>
-Description: Global Urban Areas, with Place Names and Population.
-    This package contains all the urban areas with names (based on available data). 
+Maintainer: Tom Buckley <tom@tbuckl.com>
+Description: Global urban areas, their geographic extent, location, place names and population. This package contains the geographic extent, as derived from remote sensing data, of named urban areas with more than 100k persons living within them. 
 License: CC0
 Encoding: UTF-8
 LazyData: true
 URL: http://github.com/tbuckl/urbanareas
 BugReports: https://github.com/tbuckl/urbanareas/issues
 RoxygenNote: 6.0.1
+Suggests: testthat
